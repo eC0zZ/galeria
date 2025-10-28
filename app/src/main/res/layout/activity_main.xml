@@ -36,42 +36,64 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="PREV"
+            android:backgroundTint="#004C40"
+            />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="3"
-            android:text="" />
+            android:text=""
+            />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:text="NEXT"
+            android:backgroundTint="#004C40"/>
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Który obraz wyświetlić? "
+        android:textColor="@color/black"/>
 
     <EditText
         android:id="@+id/editTextNumber"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="right"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="number"
+        android:textColor="@color/black"/>
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tło niebieskie? " />
+        android:text="Tło niebieskie? "
+        android:textColor="@color/black"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#004C40"
+            android:layout_gravity="bottom"
+            android:text="Autor: 00000000000000000"
+            android:textColor="@color/black" />
+    </LinearLayout>
 
 
 </LinearLayout>
