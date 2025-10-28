@@ -67,18 +67,21 @@
     <EditText
         android:id="@+id/editTextNumber"
         android:layout_width="wrap_content"
-        android:layout_gravity="right"
         android:layout_height="wrap_content"
+        android:layout_gravity="end"
         android:ems="10"
         android:inputType="number"
-        android:textColor="@color/black"/>
+        android:minHeight="48dp"
+        android:text=""
+        android:textColor="@color/black" />
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:minHeight="48dp"
         android:text="Tło niebieskie? "
-        android:textColor="@color/black"/>
+        android:textColor="@color/black" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -89,10 +92,11 @@
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#004C40"
             android:layout_gravity="bottom"
+            android:background="#004C40"
             android:text="Autor: 00000000000000000"
-            android:textColor="@color/black" />
+            android:textColor="#82B1FF"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 
 
